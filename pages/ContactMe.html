@@ -1,0 +1,118 @@
+<html>
+  <title>Contact Me</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="stylesheet"    href="../css/mystyling.css" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet"    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet"    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="shortcut icon" href="../images/icon.jpg"   type="image/jpg">
+  <link rel="stylesheet"    href="../css/animate.css"   type="text/css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+  <script src="../js/navbarfix.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Marmelad'      rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Atma'          rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Alfa Slab One' rel='stylesheet'>
+  <style>
+    table {
+      font-family: arial, sans-serif;
+      border: 2px solid black;
+      width: 100%;
+    }
+    th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 7px;
+    }
+    td {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 7px;
+    }
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+  </style>
+  <body class="animated fadeIn">
+    <nav class="navbar ">
+      <div class="container-fluid" style="box-shadow: 0 0.5em 1em rgba(0,0,0,0.6);">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="glyphicon glyphicon-list"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li ><a href="../index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+            <li><a href="AboutMe.html" >About Me</a></li>
+            <li><a href="Key_Projects.html">Key Projects</a></li>
+            <li><a href="Academics.html">Academics</a></li>
+            <li><a href="#" class="active">Contact Me</a></li>
+            <li><a href="Favorites.html">Favorites</a></li>
+          </ul>
+        </div>
+      </div>  
+    </nav>
+    <div class="container">
+      <h1 class="bakchodi2">How to get in touch:</h1>
+      <p>
+      You can find me on:
+        <a target="_blank" href="https://orcid.org/0000-0002-4031-451X"><img src="https://orcid.org/sites/default/files/images/orcid_128x128.png" style="margin:5px;" width="50px" height="50px" title="ORCID"> </a>
+        <a target="_blank" href="https://github.com/aaronjohnsabu1999">                    <img src="../images/github.png"   style="margin:5px;" width="50px" height="50px" title="GitHub">  </a>
+        <a target="_blank" href="https://www.facebook.com/AaronJohnSabu1999ForTheLord">    <img src="../images/fb.png"       style="margin:5px;" width="50px" height="50px" title="Facebook"></a>
+        <a target="_blank" href="https://www.linkedin.com/in/aaron-john-sabu-4535a1181/">  <img src="../images/linkedin.png" style="margin:5px;" width="50px" height="50px" title="LinkedIn"></a>
+        <a target="_blank" href="https://twitter.com/AaronJS_Thevel">                      <img src="../images/twitter.png"  style="margin:5px;" width="50px" height="50px" title="Twitter"> </a>
+        <a target="_blank" href="https://www.quora.com/profile/Aaron-John-Sabu">           <img src="../images/quora.png"    style="margin:5px;" width="50px" height="50px" title="Quora">   </a>
+        <a target="_blank" href="https://www.youtube.com/channel/UCM4ImConXKRqnU25_qNBSKQ"><img src="../images/yt.png"       style="margin:5px;" width="50px" height="50px" title="YouTube"> </a>
+        <a target="_blank" href="https://stackexchange.com/users/6427499"><img src="https://stackexchange.com/users/flair/6427499.png?theme=dark" width="208" height="58" alt="profile for Aaron John Sabu on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Aaron John Sabu on Stack Exchange, a network of free, community-driven Q&amp;A sites"></a>
+      </p>
+      <p>My abode is Room no. 329, Hostel 9, IIT Bombay. For urgent matters, my mobile phone number is <a class="projectHead center-align">+91 9833 967 779</a><br>My email ids are <a href="mailto:aaronjohnsabu1999@gmail.com?subject=From%20the%20website:%20">aaronjohnsabu1999@gmail.com</a> or <a href="mailto:aaronjs@iitb.ac.in?subject=From%20the%20website:%20">aaronjs@iitb.ac.in</a></p>
+    </div>
+    <div class="container">
+      <h1 class="bakchodi2">When to get in touch:</h1>
+      <p> Contacting via all "asynchronous"" modes is welcome any time.<br>In order to contact in real-time, please prefer the same beyond afternoon in the weekend and in the night during weekdays as per Indian Standard Time (IST), for which the present time and day is <a id="currdaytime" class="projectHead center-align"></a>
+      <script>
+        function checkTime(i)
+        {
+          if (i < 10) {i = "0" + i};
+          return i;
+          }
+        function findTime()
+        {
+          var dt = new Date();
+          var h  = dt.getUTCHours();
+          var m  = dt.getUTCMinutes();
+          var s  = dt.getUTCSeconds();
+          var d  = dt.getUTCDay();
+          var daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
+          var h1 = (h + 5 + Math.floor((m+30)/60));
+          var m1 = (m + 30)%60;
+          if((h1/24)>=1)
+          {
+            if(d==6)
+            {
+              d = 0;
+            }
+            else
+            {
+              d = d + 1;
+            }
+          }
+          h1 = h1%24;
+          h1 = checkTime(h1);
+          m1 = checkTime(m1);
+          s = checkTime(s);
+          document.getElementById('currdaytime').innerHTML = h1 + ":" + m1 + ":" + s + ", " + daylist[d];
+        }
+        setInterval(findTime,1000);
+      </script>
+    </div>
+    <br>
+    <div class="container">
+      <h1 class="bakchodi2">How to obtain my CV:</h1>
+      <p> Please contact me via email (preferably the GMail account) and mention the reason for obtaining my CV.<br> If, by any means, I had given a link for my CV which does not work anymore, I am extremely sorry for the same and please mention that in the mail.
+      </p>
+    </div>
+  </body>
+</html>

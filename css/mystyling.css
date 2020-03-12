@@ -1,0 +1,340 @@
+.navbar{
+	background-color: #000000;
+	overflow: hidden;
+}
+
+.navbar a{
+	color: white;
+	text-align: center;
+	font-family: 'Marmelad';
+	font-size: 1.6em;
+}
+
+.content {
+  padding: 16px;
+}
+
+.navbar button{
+	color: white;
+	font-family: 'Marmelad';
+	font-size: 1.6em;
+}
+.navbar .active{
+	background-color: #7851A9;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+
+#oneline{
+	background-color: transparent;
+	color: black;
+	border-color: transparent;
+	font-size: 2.5em;
+	font-weight: bold;
+	font-family: 'Atma';
+}
+.modal-title{
+	font-weight: bold;
+	font-size: 1.5em;
+}
+.modal-body{
+	font-size: 1.2em;
+	font-style: italic;
+}
+p{
+	font-size: 1.4em;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.bakchodi{
+	font-family: 'Alfa Slab One';
+	font-size: 2.5em;
+	font-style: bold;
+}
+.fav{
+	font-size: 1.4em; 	
+}
+.accordionhead{
+	font-style: bold;
+	font-size: 1.4em;
+}
+.courselist{
+	font-size: 1.3em;
+}
+
+table, tr, td{
+	text-align: center;
+}
+table{
+	empty-cells: show;
+
+}
+.CS207{
+	background-color: #ff6961;
+}
+.HS101{
+	background-color: #ffa07a;
+}
+.SI417{
+	background-color: #b4fa84;
+}
+.CS215{
+	background-color: #7cd1c5;
+}
+.CS213{
+	background-color: #cae1ff;
+}
+.CS251{
+	background-color: #bc7fe6;
+}
+.bakchodi2{
+	font-family: 'Alfa Slab One';
+	font-size: 2em;
+	font-style: bold;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-github {
+  background: #000000;
+  color: white;
+}
+
+.fa-quora {
+  background: #B92B27;
+  color: white;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+.message{
+	border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  width: 100%;
+  max-width: 900px;
+  margin: 4em auto;
+  font-family: Raleway, Arial, sans-serif;
+  padding: 1em 2em;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #eee;
+    margin: 2em 0;
+    padding: 0;
+}
+
+h1, h2 {
+  margin-bottom: 1em;
+  border-bottom: 2px solid #eee;
+  line-height: 1.5;
+}
+
+h1 > small{
+  color: #666;
+}
+
+h1 > small > a,
+p > a{
+  color: #3CB371;
+  text-decoration: none;
+}
+h1 > small > a:hover,
+p > a:hover{
+  text-decoration: underline;
+}
+
+/* Buttons styles */
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+input[type="submit"].btn,
+button.btn {
+	cursor: pointer;
+}
+
+a.btn,.btn {
+  margin-right: 1em; /* remove this while use*/
+  margin-bottom: 1em; /* remove this while use*/
+	display: inline-block;
+	outline: none;
+	*zoom: 1;
+	text-align: center;
+	text-decoration: none;
+	font-family: inherit;
+	font-weight: 300;
+	letter-spacing: 1px;
+	vertical-align: middle;
+	border: 1px solid;
+	transition: all 0.2s ease;
+	box-sizing: border-box;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.01);
+}
+/* Radius */
+.btn-radius {
+  border-radius: 3px;
+}
+/* Sizes */
+.btn-small {
+	font-size: 0.8125em;
+	padding: 0.4125em 1.25em;
+}
+.btn-medium {
+	font-size: 0.9375em;
+	padding: 0.5375em 1.375em;
+}
+.btn-large {
+	font-size: 4em;
+	padding: 1.5em 1.5em;
+}
+
+/* Colors */
+.btn-green {
+	color: #3CB371;
+	border-color: #3CB371;
+}
+.btn-green:hover {
+  color: #FFFFFF;
+  background: #3CB371;
+  border-color: #3CB371;		
+}
+.btn-green-selected {
+	color: #3CB371;
+	border-color: #000000;
+}
+.btn-green-selected:hover {
+  color: #FFFFFF;
+  background: #3CB371;
+  border-color: #000000;		
+}
+
+.btn-blue {
+	color: #4682B4;
+	border-color: #4682B4;
+}
+.btn-blue:hover {
+  background: #4682B4;
+  color: #FFFFFF;
+  border-color: #4682B4;		
+}
+.btn-blue-selected {
+	color: #4682B4;
+	border-color: #000000;
+}
+.btn-blue-selected:hover {
+  background: #4682B4;
+  color: #FFFFFF;
+  border-color: #000000;		
+}
+
+.btn-orange {
+	color: #FF8C00;
+	border-color: #FF8C00;
+}
+.btn-orange:hover {
+  background: #FF8C00;
+  color: #FFFFFF;
+  border-color: #FF8C00;		
+}
+.btn-orange-selected {
+	color: #FF8C00;
+	border-color: #000000;
+}
+.btn-orange-selected:hover {
+  background: #FF8C00;
+  color: #FFFFFF;
+  border-color: #000000;	
+}
+
+.btn-red {
+	color: #B22222;
+	border-color: #B22222;
+}
+.btn-red:hover {
+  background: #B22222;
+  color: #FFFFFF;
+  border-color: #B22222;	
+}
+.btn-red-selected {
+	color: #B22222;
+	border-color: #000000;
+}
+.btn-red-selected:hover {
+  background: #B22222;
+  color: #FFFFFF;
+  border-color: #000000;	
+}
+
+.btn-gray {
+	color: #808080;
+	border-color: #808080;
+}
+.btn-gray:hover {
+  background: #808080;
+  color: #FFFFFF;
+  border-color: #808080;	
+}
